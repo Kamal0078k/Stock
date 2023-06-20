@@ -39,7 +39,7 @@ const StockPercentageCalculator = () => {
       }
     };
 
-    const interval = setInterval(fetchStockData, 86400000); // Fetch stock data every 5 seconds
+    const interval = setInterval(fetchStockData, 43200000); // Fetch stock data every 5 seconds
 
     return () => {
       clearInterval(interval); // Clear the interval when the component unmounts
